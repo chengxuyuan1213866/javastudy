@@ -1,0 +1,9 @@
+
+*.mp3
+*.mp4
+
+/temp
+
+*.class
+/css
+/js
