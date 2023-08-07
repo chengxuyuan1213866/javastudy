@@ -1,4 +1,4 @@
-package src;
+package src.Demo0805;
 import java.lang.Math;
 public class Beggar {
     public static void main(String[] args) {
