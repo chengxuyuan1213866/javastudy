@@ -2,7 +2,7 @@ package src.Demo0807;
 
 import java.util.Random;
 
-public class Six {
+public class Demo2 {
     public static void main(String[] args) {
         int[] arr = new int[6];
         Random ro = new Random();
