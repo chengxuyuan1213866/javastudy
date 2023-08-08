@@ -21,16 +21,9 @@ public class InsertSort {
             if (index != i) {
                 arr[index+1] = temp;
             }
-
-
             }
         System.out.println(Arrays.toString(arr));
-
         }
-
-
-
-
 }
 
 
