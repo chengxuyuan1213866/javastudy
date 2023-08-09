@@ -2,6 +2,9 @@ package src.Demo0808;
 
 import java.util.Arrays;
 
+/**
+ * @author Administrator
+ */
 public class Demo7 {
     public static void main(String[] args) {
         /*
@@ -12,13 +15,13 @@ public class Demo7 {
         int len = arr.length;
         int len1 = arr1.length;
         int n = 0;
-        if (len <=len1) {
+        if (len <= len1) {
             n = len1;
         }
         else {
             n = len;
         }
-        int arr2[] = new int[n];
+        int[] arr2 = new int[n];
 
         for (int i = 0; i < len1; i++) {
             for (int j = 0;j< len;j++)
