@@ -1,9 +1,12 @@
 package src.Demo0809.Task;
 
+import java.util.Scanner;
+
 public class Demo3 {
     public static void main(String[] args)
     {
-        int n = 5;
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
         int[][] arr = new int[n][n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {

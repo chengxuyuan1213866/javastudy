@@ -21,12 +21,13 @@ public class Demo6 {
             if (i == (n-1))
             {
                 arr1[i] = k;
-                continue ;
+                continue;
             }
             arr1[i] = arr[count];
             count++;
 
         }
+
         System.out.println(Arrays.toString(arr1));
 
     }
