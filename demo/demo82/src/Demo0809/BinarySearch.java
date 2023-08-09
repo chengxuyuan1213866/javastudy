@@ -1,5 +1,7 @@
 package src.Demo0809;
 
+import java.util.Scanner;
+
 public class BinarySearch {
     public static void main(String[] args) {
         /*
@@ -9,7 +11,8 @@ public class BinarySearch {
         int arr[] = {1,2,3,4,5,6,7,8,9,10};
         int left = 0;
         int right = arr.length-1;
-        int num = 6;
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
         int flag = 0;
         while (left<=right)
         {
@@ -19,11 +22,11 @@ public class BinarySearch {
                 flag = mid;
                 break;
             } else if (mid>num) {
-                right--;
+                right = mid -1;
 
             }
             else {
-                left++;
+                left=mid+1;
             }
         }
         if (flag == 0)
