@@ -19,7 +19,7 @@ public class Demo2 {
         };
 
         // 按照Java程序进行降序排列
-/*        for (int i = 0; i <= scores.length-1; i++) {
+        for (int i = 0; i <= scores.length-1; i++) {
             for (int j = 0; j < scores.length-1-i; j++) {
                 if (scores[j][1]<scores[j+1][1]) {
                     int[] score = scores[j];
@@ -28,10 +28,13 @@ public class Demo2 {
                 }
 
             }
-        }*/
+        }
+        for (int i = 0; i < scores.length; i++) {
+            System.out.println(Arrays.toString(scores[i]));
+        }
         // 设计程序，根据学生总成绩进行排序(降序排列)，并输出学生姓名、每门课程的名称和
         //该学生的成绩、该学生的总成绩
-        int[] sum = new int[scores.length];
+        /*int[] sum = new int[scores.length];
         for (int i = 0; i < scores.length; i++) {
             for (int j = 0; j < scores[i].length; j++) {
                 sum[i] += scores[i][j];
@@ -58,12 +61,12 @@ public class Demo2 {
             }
         }
 
-/*        System.out.println(Arrays.toString(sum));
-        System.out.println(Arrays.toString(names));*/
+*//*        System.out.println(Arrays.toString(sum));
+        System.out.println(Arrays.toString(names));*//*
         System.out.println("姓名 \t 各科成绩 \t\t 总成绩");
         for (int i = 0; i < scores.length; i++) {
             System.out.println(names[i] +"    "+ Arrays.toString(scores[i]) +"     "+ sum[i]);
-        }
+        }*/
 
 
 

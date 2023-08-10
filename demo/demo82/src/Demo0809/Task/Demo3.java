@@ -20,9 +20,6 @@ public class Demo3 {
                         arr[i][j] = arr[i-1][j]+arr[i-1][j+1];
                     }
                 }
-
-
-
             }
         }
         for (int i = 0; i < n; i++) {
@@ -31,7 +28,7 @@ public class Demo3 {
                 {
                     break;
                 }
-                System.out.print(arr[i][j]);
+                System.out.print(arr[i][j]+"\t");
                 //System.out.printf("%d%d\t",i,j);
             }
             System.out.println();

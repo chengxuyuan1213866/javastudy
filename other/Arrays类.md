@@ -58,7 +58,7 @@ public static void main(String[] args) {
 
 
 
-3.toString
+##### 3.toString
 
 将数组转换为字符串
 
@@ -70,7 +70,9 @@ public static void main(String[] args) {
 // 结果为[1,5,6,8,9,4]
 ```
 
-4.fill将数组所有元素变成相同的值
+##### 4.fill
+
+将数组所有元素变成相同的值
 
 ```java
 int[] arr = {1,5,6,76,5};
