@@ -7,13 +7,13 @@ public class Demo7 {
         int[] arr = {1,2,3,4,5,6,7};
         int[] arr1 = new int[arr.length];
         int k = 3;
-        arr1 = LeftShift(arr,k);
+        arr1 = leftShift(arr,k);
         System.out.println(Arrays.toString(arr1));
 
 
 
     }
-    public static int[] LeftShift(int[] arr,int k)
+    public static int[] leftShift(int[] arr, int k)
     {
         int[] arr1 = new int[arr.length];
         System.arraycopy(arr,k,arr1,0,arr.length-k);
