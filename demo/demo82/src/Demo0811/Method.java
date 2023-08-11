@@ -8,10 +8,10 @@ public class Method {
 
     public static void main(String[] args) {
         for (int i = 0; i < 3; i++) {
-            print();
+            myprint();
         }
     }
-    public static void print()
+    public static void myprint()
     {
         System.out.println("铁子"+666);
     }
