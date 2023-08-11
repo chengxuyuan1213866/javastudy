@@ -1,10 +1,13 @@
 package src.Demo0811.Task;
 
+/**
+ * @author Administrator
+ */
 public class Demo5 {
     public static void main(String[] args) {
-        System.out.println(Palindrome(1231));
+        System.out.println(palindrome(1231));
     }
-    public static boolean Palindrome(int n)
+    public static boolean palindrome(int n)
     {
         int len = 0;
         int m = n;
@@ -23,14 +26,7 @@ public class Demo5 {
             }
 
         }
-        if (count == len)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
+        return count == len;
 
     }
 }
