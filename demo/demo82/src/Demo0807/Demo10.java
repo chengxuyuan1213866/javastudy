@@ -2,6 +2,7 @@ package src.Demo0807;
 
 public class Demo10 {
     public static void main(String[] args) {
+        // 将数组中的元素逆置
         int[] arr = {1,2,3,4,5,6,7,8,9,10};
         int len = arr.length;
         int temp;
