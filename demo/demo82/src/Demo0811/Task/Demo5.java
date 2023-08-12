@@ -24,7 +24,6 @@ public class Demo5 {
             {
                 count++;
             }
-
         }
         return count == len;
 

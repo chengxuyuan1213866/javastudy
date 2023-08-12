@@ -8,11 +8,14 @@ public class Method {
 
     public static void main(String[] args) {
         for (int i = 0; i < 3; i++) {
-            myprint();
+            System.out.println(myprint());;
         }
     }
-    public static void myprint()
+
+
+    public static String myprint()
     {
-        System.out.println("铁子"+666);
+        return "铁子666";
     }
+// 在main方法中调用了myprint方法
 }
