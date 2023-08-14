@@ -44,10 +44,10 @@ public class quickSort {
         int key = arr[left];
         while (left<right)
         {
-            while (left<right && arr[right]<key){
+            while (left<right && arr[right]<=key){
                 right--;
             }
-            while (left<right && arr[left]>key){
+            while (left<right && arr[left]>=key){
                 left++;
             }
             int temp = arr[left];
