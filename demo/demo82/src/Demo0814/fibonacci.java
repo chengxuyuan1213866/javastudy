@@ -1,8 +1,11 @@
 package src.Demo0814;
 
+/**
+ * @author Administrator
+ */
 public class fibonacci {
     public static void main(String[] args) {
-        int a = fun(6);
+        int a = fun(15);
         System.out.println(a);
     }
     public static int fun(int n) {
