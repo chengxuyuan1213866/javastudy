@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * @author Administrator
  */
-public class yanghuitriangle {
+public class yhtriangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
