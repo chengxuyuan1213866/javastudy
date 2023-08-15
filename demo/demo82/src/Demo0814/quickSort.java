@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class quickSort {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6,7,8,9,10};
+        int[] arr = {10,9,8,7,6,5,4,3,2,1};
 /*        for (int i = 0; i < arr.length/2; i++) {
             int key = i;
             int left = 0;
@@ -39,22 +39,23 @@ public class quickSort {
         if (start >= end){
             return;
         }
+        int key = arr[start];
         int left = start;
         int right = end;
-        int key = arr[left];
+
         while (left<right)
         {
-            while (left<right && arr[right]<=key){
+            while (left < right && arr[right]>=key){
                 right--;
             }
-            while (left<right && arr[left]>=key){
+            while (left < right && arr[left] <= key){
                 left++;
             }
             int temp = arr[left];
             arr[left] = arr[right];
             arr[right] = temp;
         }
-        key = arr[left];
+        arr[start] = arr[left];
         arr[left] = key;
 
         sort(arr, start,left-1);
