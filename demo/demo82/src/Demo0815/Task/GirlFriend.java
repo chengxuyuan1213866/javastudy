@@ -14,7 +14,7 @@ public class GirlFriend {
     }
     public void show()
     {
-        System.out.printf("我的女朋友叫%s,身高%f,体重%f\n",name,h,w);
+        System.out.printf("我的女朋友叫%s\t,身高%f\t,体重%f\n",name,h,w);
     }
     public GirlFriend(String a,double b,double c)
     {

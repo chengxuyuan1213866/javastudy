@@ -8,6 +8,6 @@ public class Student {
     double score = 2.5;
     public String say()
     {
-        return name + gender + age + id + score;
+        return name +"\t"+ gender+ "\t" + age +"\t"+ id +"\t"+ score;
     }
 }
