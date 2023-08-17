@@ -1,15 +1,13 @@
 package opp.Demo0816.Task.Library.management.system;
 
 public class Book extends Library {
-    String title;
-    String author;
-    String year;
-    double price;
+    private String title;
+    private String author;
+    private String year;
+    private double price;
 
     public Book() {
-    }
-
-    ;
+    };
 
     // 添加图书
     public void add(String title, String author, String year, double price) {
