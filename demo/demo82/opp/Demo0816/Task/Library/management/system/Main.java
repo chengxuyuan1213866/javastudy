@@ -3,7 +3,7 @@ package opp.Demo0816.Task.Library.management.system;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
-public class Main {
+ class Main {
 
     static Scanner input = new Scanner(System.in);
 
