@@ -22,7 +22,7 @@ public class Statistics {
             {
                 letter++;
             }
-            else {
+            else if ('0' <=str.charAt(i) && str.charAt(i)<='9'){
                 figure ++;
             }
         }
