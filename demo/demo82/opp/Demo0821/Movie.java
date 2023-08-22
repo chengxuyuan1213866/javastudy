@@ -1,4 +1,4 @@
-package com.kfm.base.moive;
+package opp.Demo0821;
 
 /**
  * 电影类

@@ -1,4 +1,4 @@
-package com.kfm.base.moive;
+package opp.Demo0821;
 
 /**
  * 用户类
@@ -14,12 +14,12 @@ public class User {
     private Boolean admin;
 
     // 电影票
-    private Ticket[] tickets;
+    private opp.Demo0821.Ticket[] tickets;
 
     private int ticketCount;
 
     {
-        tickets = new Ticket[10];
+        tickets = new opp.Demo0821.Ticket[10];
     }
 
     public User() {
@@ -68,16 +68,16 @@ public class User {
         this.admin = admin;
     }
 
-    public Ticket[] getTickets() {
+    public opp.Demo0821.Ticket[] getTickets() {
         return tickets;
     }
 
-    public void setTickets(Ticket[] tickets) {
+    public void setTickets(opp.Demo0821.Ticket[] tickets) {
         this.tickets = tickets;
     }
 
 
-    public void addTicket(Ticket ticket){
+    public void addTicket(opp.Demo0821.Ticket ticket){
         // 考虑扩容
         this.tickets[ticketCount ++] = ticket;
     }
