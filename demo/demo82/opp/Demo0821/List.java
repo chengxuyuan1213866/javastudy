@@ -1,8 +1,6 @@
 package opp.Demo0821;
 
 public class List {
-
-
     private Object[] objs;
 
     public boolean add(User obj){
