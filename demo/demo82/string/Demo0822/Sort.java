@@ -1,4 +1,4 @@
-package opp.Demo0822;
+package string.Demo0822;
 
 import java.util.Arrays;
 
@@ -12,6 +12,7 @@ public class Sort {
         int e = arr.length - 1;
         //bubblesort(arr);
         //quicksort(s,e,arr);
+        //choicesort(arr);
         System.out.println(Arrays.toString(arr));
 
     }
@@ -60,9 +61,23 @@ public class Sort {
             }
         }
     }
-    public static void insertsort(int[] arr)
+    public static void choicesort(int[] arr)
     {
 
+        for (int i = 0; i < arr.length-1; i++) {
+            int min = i;
+            for (int j = i+1; j < arr.length; j++) {
+                if (arr[j]<=arr[min])
+                {
+                    min = j;
+                }
+
+            }
+            int temp = arr[i];
+            arr[i] = arr[min];
+            arr[min] = temp;
+
+        }
     }
 
 
