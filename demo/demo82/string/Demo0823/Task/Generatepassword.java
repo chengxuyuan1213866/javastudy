@@ -27,9 +27,7 @@ public class Generatepassword {
             else {
                 i--;
             }
-
         }
-
         return stu;
 
 
