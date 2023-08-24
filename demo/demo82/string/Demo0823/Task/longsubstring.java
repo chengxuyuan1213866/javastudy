@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class longsubstring {
     public static void main(String[] args) {
-        String s = "cjskdc";
+        String s = "cjcdc";
         System.out.println(lostu(s));
     }
     public static int lostu(String s)
