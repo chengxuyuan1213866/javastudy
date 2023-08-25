@@ -2,21 +2,17 @@ package string.Demo0824.Task;
 
 public class TabularName {
     public static void main(String[] args) {
-        System.out.println(name(28));
-
-
+        System.out.println(name(100));
     }
-    public static String name(int n)
+    public static String name(int c)
     {
-        StringBuilder stu = new StringBuilder();
-        int a = n/26;
-        char b = (char) (n%26+64);
-        for (int i = 0; i < a; i++) {
-            stu.append("A");
-        }
 
-        System.out.println(b);
-        String s = new String(stu);
-        return s;
+        StringBuilder stu = new StringBuilder();
+        while (c != 0)
+        {
+            stu.append((char) (64+ c%26));
+            c /= 26;
+        }
+        return stu.reverse().toString();
     }
 }
