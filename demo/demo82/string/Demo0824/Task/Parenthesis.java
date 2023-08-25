@@ -21,7 +21,6 @@ public class Parenthesis {
                     }
                 }
             }
-
         }
         return true;
     }
