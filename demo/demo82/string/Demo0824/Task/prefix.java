@@ -2,10 +2,10 @@ package string.Demo0824.Task;
 
 public class prefix {
     public static void main(String[] args) {
-        String[] s = {"flower","flow","flight"};
+        String[] s = {"flower","flow","floght"};
         System.out.println(fun(s));
     }
-    public static int fun(String[] stu)
+    public static String fun(String[] stu)
     {
         int count = 0;
         int count1 = 0;
@@ -21,7 +21,6 @@ public class prefix {
                 if (stu[min].charAt(i) == stu[j].charAt(i))
                 {
                     count++;
-
                 }
             }
             if (count == stu.length)
@@ -30,6 +29,6 @@ public class prefix {
             }
             count =0;
         }
-        return count1;
+        return stu[min].substring(0,count1);
     }
 }
