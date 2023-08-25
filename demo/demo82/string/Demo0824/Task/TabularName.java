@@ -2,7 +2,7 @@ package string.Demo0824.Task;
 
 public class TabularName {
     public static void main(String[] args) {
-        System.out.println(name(26));
+        System.out.println(name(27));
     }
     public static String name(int c)
     {
@@ -14,6 +14,6 @@ public class TabularName {
             stu.append((char) (65+ c%26));
             c /= 26;
         }
-        return stu.reverse().toString();
+        return stu.toString();
     }
 }
