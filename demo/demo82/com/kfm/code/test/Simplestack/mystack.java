@@ -1,9 +1,9 @@
-package com.kfm.code.test;
+package com.kfm.code.test.Simplestack;
 
 import java.util.Arrays;
 import java.util.Objects;
 
-public class mystack extends Stack{
+public class mystack extends Stack {
 
     // 记录栈中元素个数
     private int N;
@@ -26,9 +26,10 @@ public class mystack extends Stack{
             arr[N] = element;
             N++;
         }
-        else if (N>10)
+        else if (N>9)
         {
             System.out.println("栈溢出");
+            return;
         }
         else
         {

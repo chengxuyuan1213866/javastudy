@@ -1,4 +1,4 @@
-package com.kfm.code.test;
+package com.kfm.code.test.Simplestack;
 
 public abstract class Stack {
 

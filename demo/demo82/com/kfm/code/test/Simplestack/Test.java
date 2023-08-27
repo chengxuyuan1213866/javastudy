@@ -1,11 +1,19 @@
-package com.kfm.code.test;
+package com.kfm.code.test.Simplestack;
 
 public class Test {
     public static void main(String[] args) {
         mystack s = new mystack();
         s.push("aaa");
         s.push("bbb");
-        System.out.println(s.pop());
+        s.push("bbb");
+        s.push("bbb");
+        s.push("bbb");
+        s.push("bbb");
+        s.push("bbb");
+        s.push("bbb");
+        s.push("bbb");
+        s.push("bbb");
+
         System.out.println(s.toString());
 
 
