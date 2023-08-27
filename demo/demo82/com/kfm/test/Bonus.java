@@ -1,4 +1,4 @@
-package com.kfm;
+package com.kfm.test;
 
 import java.util.Scanner;
 
