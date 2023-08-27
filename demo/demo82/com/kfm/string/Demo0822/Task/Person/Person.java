@@ -1,4 +1,4 @@
-package string.Demo0822.Task.Person;
+package com.kfm.string.Demo0822.Task.Person;
 
 public class Person {
     private String name;

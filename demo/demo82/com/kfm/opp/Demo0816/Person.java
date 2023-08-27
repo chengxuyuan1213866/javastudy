@@ -1,4 +1,4 @@
-package opp.Demo0816;
+package com.kfm.opp.Demo0816;
 
 public class Person {
     private String name;

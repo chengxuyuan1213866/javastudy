@@ -1,4 +1,4 @@
-package opp.Demo0818;
+package com.kfm.opp.Demo0818;
 
 public class Handsome extends Person {
     public void print()

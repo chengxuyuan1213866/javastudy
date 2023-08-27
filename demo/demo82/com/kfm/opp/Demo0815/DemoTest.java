@@ -1,11 +1,11 @@
-package opp.Demo0815;
+package com.kfm.opp.Demo0815;
 
 /**
  * @author Administrator
  */
 public class DemoTest {
     public static void main(String[] args) {
-        Person pd = new Person();
+        opp.Demo0815.Person pd = new opp.Demo0815.Person();
         pd.introduce();
         pd.sleep();
     }

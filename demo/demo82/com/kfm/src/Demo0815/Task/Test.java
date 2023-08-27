@@ -1,17 +1,17 @@
-package src.Demo0815.Task;
+package com.kfm.src.Demo0815.Task;
 
 public class Test {
     public static void main(String[] args) {
-        Cat c =new Cat();
+        src.Demo0815.Task.Cat c =new src.Demo0815.Task.Cat();
         c.eat();
         c.catchMouse();
-        Cat c1 = new Cat("大花","汤姆");
+        src.Demo0815.Task.Cat c1 = new src.Demo0815.Task.Cat("大花","汤姆");
         c1.eat();
         c1.catchMouse();
-        Dog d = new Dog();
+        src.Demo0815.Task.Dog d = new src.Demo0815.Task.Dog();
         d.eat();
         d.catchMouse();
-        Dog d1 = new Dog("大花","汤姆");
+        src.Demo0815.Task.Dog d1 = new src.Demo0815.Task.Dog("大花","汤姆");
         d1.eat();
         d1.catchMouse();
     }

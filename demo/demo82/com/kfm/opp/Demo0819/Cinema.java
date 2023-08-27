@@ -1,4 +1,4 @@
-package opp.Demo0819;
+package com.kfm.opp.Demo0819;
 
 public class Cinema {
     Movie[] movies;

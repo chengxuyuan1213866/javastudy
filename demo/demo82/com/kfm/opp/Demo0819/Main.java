@@ -1,4 +1,4 @@
-package opp.Demo0819;
+package com.kfm.opp.Demo0819;
 
 import java.util.Scanner;
 

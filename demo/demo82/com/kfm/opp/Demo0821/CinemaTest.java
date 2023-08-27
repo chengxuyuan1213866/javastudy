@@ -1,4 +1,4 @@
-package opp.Demo0821;
+package com.kfm.opp.Demo0821;
 
 public class CinemaTest {
 
