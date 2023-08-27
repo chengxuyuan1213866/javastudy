@@ -1,4 +1,4 @@
-package string.Demo0825;
+package com.kfm.string.Demo0825;
 
 public class Regular {
     public static void main(String[] args) {
