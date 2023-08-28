@@ -20,7 +20,7 @@ public class mystack extends Stack {
     }
 
     @Override
-    void push(Object element) {
+    protected void push(Object element) {
         if (N == 0)
         {
             arr[N] = element;
@@ -46,6 +46,7 @@ public class mystack extends Stack {
         {
             Object a = arr[0];
             System.arraycopy(arr,1,arr,0,length-1);
+            N--;
             return a;
         }
     }
