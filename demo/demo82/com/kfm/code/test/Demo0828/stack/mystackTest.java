@@ -1,4 +1,4 @@
-package com.kfm.code.test.Demo0828;
+package com.kfm.code.test.Demo0828.stack;
 
 public class mystackTest {
     public static void main(String[] args) {
