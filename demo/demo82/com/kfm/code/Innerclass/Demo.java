@@ -1,8 +1,15 @@
 package com.kfm.code.Innerclass;
 
 public class Demo {
-    public static void main(String[] args) {
-        System.out.println(1111);
+
+    class A{
+        static {
+            int a = 10;
+        }
+        A()
+        {
+            System.out.println("内部类的构造进行");
+        }
     }
 
 }
