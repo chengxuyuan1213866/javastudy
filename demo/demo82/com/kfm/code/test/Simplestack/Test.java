@@ -5,22 +5,18 @@ public class Test {
         mystack s = new mystack();
         s.push("aaa");
         s.push("bbb");
-        s.push("bbb");
-        s.push("bbb");
-        s.push("bbb");
-        s.push("bbb");
-        s.push("bbb");
-        s.push("bbb");
-        s.push("bbb");
-        s.push("bbb");
-
+        s.push("ccc");
+        s.push("ddd");
+        s.push("eee");
+        s.push("fff");
+        s.push("ggg");
+        s.push("hhh");
+        s.push("iii");
+        s.push("jjj");
+        Object a = s.pop();
+        System.out.println(a);
         System.out.println(s.toString());
 
 
-/*        int[] arr = {1,2,3,4,0,0};
-        int a = arr[0];
-        System.arraycopy(arr,1,arr,0,arr.length-1);
-        System.out.println(a);
-        System.out.println(Arrays.toString(arr));*/
     }
 }
