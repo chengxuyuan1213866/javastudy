@@ -126,7 +126,7 @@ public class MyList implements List {
      */
     @Override
     public void clear() {
-        Object[] newArr = new Object[];
+        Object[] newArr = new Object[0];
         arr = newArr;
     }
 
