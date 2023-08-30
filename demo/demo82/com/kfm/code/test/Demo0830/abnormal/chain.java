@@ -2,19 +2,6 @@ package code.test.Demo0830.abnormal;
 
 public class chain {
 
-    // 什么是异常
-    // 什么是运行时异常
-    // 如何处理异常
-    // 什么是check异常
-    // 构造方法抛出异常对子类的影响
-    // throw和throws 的区别
-    // 自己error异常
-    // finally 的return
-    // 为什么要自定义异常
-    // 如何自定义异常
-    // 链表增删改查
-    // 实现双链表
-
     public static void main(String[] args) {
 
         try {
