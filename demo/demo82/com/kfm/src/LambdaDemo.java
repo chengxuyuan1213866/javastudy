@@ -1,4 +1,4 @@
-package com.kfm.src;
+package src;
 
 /**
  * @author Administrator
