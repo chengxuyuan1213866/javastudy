@@ -44,7 +44,6 @@ public class LinkedList {
         }
         Object[] arr = new Object[len];
         Node node = first;
-
         for (int i = 0; i < len; i++) {
                 arr[i] = node.value;
                 node= node.next;
