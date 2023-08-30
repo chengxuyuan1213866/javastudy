@@ -10,7 +10,24 @@ public class LinkedList {
     // 记录长度
     private int len;
 
-    public LinkedList() {
+    @Override
+    public String toString() {
+        StringBuilder str = new StringBuilder();
+        Node node = first;
+        if (first.value == null)
+        {
+            return "Linked[]";
+        }
+        str.append("Linked[");
+        while (node.next != null)
+        {
+            str.append(node.value);
+            str.append(",");
+            node = node.next;
+        }
+        str.append(node.value);
+        str.append("]");
+        return str.toString();
     }
 
     //增加
@@ -91,6 +108,8 @@ public class LinkedList {
         }
         return false;
     }
+
+
 
 
 
