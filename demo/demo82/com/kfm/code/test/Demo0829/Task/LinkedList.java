@@ -68,7 +68,6 @@ public class LinkedList {
         return Arrays.toString(arr);
     }
 
-
     //修改
     public boolean edit(Object obj,Object obj1)
     {
@@ -87,32 +86,31 @@ public class LinkedList {
         return false;
     }
 
-
-
-
     //删除
     public boolean delete(Object obj)
     {
         if (first == null) {
             return false;
         }
-        Node node = first;
-
-        for (int i = 0; i < len; i++) {
-            if (obj.equals(node.next.value)) {
-                node.next = node.next.next;
-                len--;
-                return true;
-            }
-            node= node.next;
+        else if (obj.equals(first.value))
+        {
+            first = first.next;
+            len--;
         }
+        else {
+            Node node = first;
+            for (int i = 0; i < len; i++) {
+                if (obj.equals(node.next.value)) {
+                    node.next = node.next.next;
+                    len--;
+                    return true;
+                }
+                node= node.next;
+            }
+        }
+
         return false;
     }
-
-
-
-
-
     private class Node
     {
         Object value;

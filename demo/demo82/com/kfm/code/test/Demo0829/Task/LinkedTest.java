@@ -11,8 +11,7 @@ public class LinkedTest {
         link.add(5);
         link.add(6);
         System.out.println(link.show());
-        System.out.println(link.edit(4, 9));
-        link.delete(5);
+        link.delete(1);
         System.out.println(link.show());
         System.out.println(link);
 
