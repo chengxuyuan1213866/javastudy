@@ -1,4 +1,4 @@
-package com.kfm.code.Innerclass;
+package code.Innerclass;
 
 public class Demo {
 
