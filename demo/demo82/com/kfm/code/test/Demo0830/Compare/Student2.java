@@ -25,9 +25,9 @@ class Test2222 {
     public static void main(String[] args) {
 
          Student2 stu[] = {
+                new Student2("蔡虚鲲", 25),
+                new Student2("蔡虚坤", 25),
                 new Student2("蔡徐坤", 25),
-                new Student2("蔡虚坤", 250),
-                new Student2("蔡虚鲲", 2500),
         };
         Comparator c = (o1, o2) ->
         {
@@ -43,6 +43,21 @@ class Test2222 {
             } else throw new RuntimeException("输入对象有误");
 
         };
+
+        // 实现接口comparator接口实现比较器进行对象排序
+        // 冒泡排序
+        for (int i = 0; i < stu.length-1; i++) {
+            for (int j = 0; j < stu.length-i-1; j++) {
+                if (c.compare(stu[j],stu[j+1]) > 0) {
+                    Student2 temp = stu[j];
+                    stu[j] = stu[j+1];
+                    stu[j+1] = temp;
+                }
+            }
+        }
+        for (int i = 0; i < stu.length; i++) {
+            System.out.println(stu[i].toString());
+        }
         System.out.println(c.compare(stu[0], stu[1]));
 
 
