@@ -8,6 +8,7 @@ public class LinkedTest {
         link.add(2);
         link.add(3);
         link.add(4);
+        link.delete(4);
         link.add(5);
         link.add(6);
         System.out.println(link.show());

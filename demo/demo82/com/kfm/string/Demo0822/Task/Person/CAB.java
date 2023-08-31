@@ -1,4 +1,4 @@
-package com.kfm.string.Demo0822.Task.Person;
+package string.Demo0822.Task.Person;
 
 public class CAB {
     Person p1 = new Person("张三",'男',18,false);

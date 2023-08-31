@@ -13,7 +13,7 @@ public class ejection1 {
         }
 
     }
-    public static void test() throws Exception {
+    public static void test() throws Exception{
         throw new Exception("我就想抛出一个异常");
     }
 

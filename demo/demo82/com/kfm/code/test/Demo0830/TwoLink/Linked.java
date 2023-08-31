@@ -19,10 +19,6 @@ public class Linked {
         if (first == null) {
             return "";
         }
-        if (obj == null)
-        {
-
-        }
         Node node = first;
         for (int i = 0; i < len; i++) {
             if (obj == null) {
@@ -41,6 +37,11 @@ public class Linked {
                     return str.toString();
                 }
             }
+            //判断是否是头结点
+
+
+
+            //？
             else {
                 if (obj.equals(node.value)) {
                     str.append("当前元素的前一个元素："+node.front.value);

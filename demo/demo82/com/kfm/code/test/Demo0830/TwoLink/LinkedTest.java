@@ -11,6 +11,5 @@ public class LinkedTest {
         lk.add(null);
         System.out.println(lk.frelement(null));
         System.out.println(lk.show());
-
     }
 }
