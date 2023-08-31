@@ -115,19 +115,27 @@ public class Linked {
         else {
             Node node = first;
             for (int i = 0; i < len; i++) {
+               if (node.next == null )
+                {
+                    node.front.next = null;
+                    node.front = null;
+                    len--;
+                    return true;
+                }
                 if (obj.equals(node.value)) {
                     node.front.next = node.next;
                     node.next.front = node.front;
                     node.next = null;
                     node.front = null;
-                    len--;
-                    return true;
+
                 }
+
                 node= node.next;
             }
         }
+        len--;
+        return true;
 
-        return false;
     }
 
 
