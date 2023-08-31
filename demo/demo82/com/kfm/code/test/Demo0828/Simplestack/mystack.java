@@ -1,4 +1,4 @@
-package com.kfm.code.test.Simplestack;
+package code.test.Demo0828.Simplestack;
 
 import java.util.Arrays;
 import java.util.Objects;

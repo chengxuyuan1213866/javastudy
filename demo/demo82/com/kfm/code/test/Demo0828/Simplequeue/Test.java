@@ -1,4 +1,4 @@
-package com.kfm.code.test.Simplequeue;
+package code.test.Demo0828.Simplequeue;
 
 import java.util.Arrays;
 
