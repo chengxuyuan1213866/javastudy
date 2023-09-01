@@ -44,9 +44,6 @@ public class Linked
                 }
             }
             //判断是否是头结点
-
-
-
             //？
             else {
                 if (obj.equals(node.value)) {
@@ -107,41 +104,39 @@ public class Linked
         return false;
     }
     // 删除
-    public boolean delete(Object obj)
+    // 删除指定元素0
+    // 删除指定位置的元素
+    public boolean delete(int n)
     {
-        if (first == null) {
-            return false;
-        }
-        else if (obj.equals(first.value))
-        {
-            first = first.next;
-            first.next.front = null;
-            len--;
+        if (n<0 || n>len-1) {
+            throw new RuntimeException("你输的什么JB玩意");
         }
         else {
-            Node node = first;
-            for (int i = 0; i < len; i++) {
-               if (node.next == null )
-                {
-                    node.front.next = null;
-                    node.front = null;
-                    len--;
-                    return true;
-                }
-                if (obj.equals(node.value)) {
-                    node.front.next = node.next;
-                    node.next.front = node.front;
-                    node.next = null;
-                    node.front = null;
-
-                }
-
-                node= node.next;
+            Node c = first;
+            if (n == 0) {
+                first = first.next;
+                first.front.next = null;
+                first.front = null;
             }
+            else if (n == len-1)
+            {
+                for (int i = 0; i < len-1; i++) {
+                    c = c.next;
+                }
+                c.front.next = null;
+                c.front = null;
+            }
+            else
+            {
+                for (int i = 0; i < n; i++) {
+                    c = c.next;
+                }
+                c.front.next = c.next;
+                c.next.front = c.front;
+            }
+            len--;
+            return true;
         }
-        len--;
-        return true;
-
     }
 
 
@@ -200,6 +195,9 @@ public class Linked
             this.value = value;
             this.next = next;
             this.front = front;
+        }
+
+        public Node() {
         }
     }
 

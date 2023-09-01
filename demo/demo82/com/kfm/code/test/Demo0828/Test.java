@@ -1,4 +1,4 @@
-package com.kfm.code.test.Demo0828;
+package code.test.Demo0828;
 
 public class Test {
     static {
