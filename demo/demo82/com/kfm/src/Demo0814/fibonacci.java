@@ -5,7 +5,7 @@ package src.Demo0814;
  */
 public class fibonacci {
     public static void main(String[] args) {
-        int a = fun(15);
+        int a = fun(5);
         System.out.println(a);
     }
     public static int fun(int n) {
