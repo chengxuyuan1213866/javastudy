@@ -2,16 +2,12 @@ package code.test.Demo0830.TwoLink;
 
 import java.util.Arrays;
 
-public class Linked {
-
-
+public class Linked
+{
     // 定义头结点
     private Node first;
-
     // 链表长度
     private int len;
-
-
 
     public boolean isEmpty()
     {
