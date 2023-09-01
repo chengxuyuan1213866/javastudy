@@ -1,4 +1,4 @@
-package com.kfm.code.test.Demo0829.aaa;
+package code.test.Demo0829.aaa;
 
 public class demo2 {
     public static void main(String[] args) {
