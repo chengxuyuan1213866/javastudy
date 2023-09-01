@@ -1,4 +1,4 @@
-package com.kfm.code.test.Demo0828.queue;
+package code.test.Demo0828.queue;
 
 public class testMyQueue {
     public static void main(String[] args) {
