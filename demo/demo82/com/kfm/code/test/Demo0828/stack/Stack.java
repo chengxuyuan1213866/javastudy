@@ -1,4 +1,4 @@
-package com.kfm.code.test.Demo0828.stack;
+package code.test.Demo0828.stack;
 
 public abstract class Stack {
 

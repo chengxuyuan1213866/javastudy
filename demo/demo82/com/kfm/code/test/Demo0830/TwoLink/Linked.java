@@ -12,6 +12,16 @@ public class Linked {
     private int len;
 
 
+
+    public boolean isEmpty()
+    {
+        return len==0;
+    }
+    public int length()
+    {
+        return len;
+    }
+
     //特殊方法  显示指定元素的的前一个和后一个元素
     public String frelement(Object obj)
     {
