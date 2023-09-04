@@ -14,7 +14,7 @@ public class work1 {
         List list = List.of("蔡徐坤","蔡虚坤","蔡虚鲲");
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("黑子，输入你要查询的名字");
+        System.out.print("黑子，输入你要查询的名字");
         String chicken = scanner.next();
         if (list.contains(chicken))
         {
