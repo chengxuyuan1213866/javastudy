@@ -1,6 +1,7 @@
 package code.CodeTest.Demo0904;
 
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.Objects;
 import java.util.Vector;
 
@@ -9,6 +10,7 @@ public class Demo2 {
     public static void main(String[] args) {
         // 初始化元素
         Vector list = new Vector();
+
         // 比较器
         Comparator comstu = new Comparator() {
             @Override
@@ -35,23 +37,21 @@ public class Demo2 {
         list.add(5,new Student("五娃",22));
         System.out.println(list);
         list.remove(list.size()-1);
-
         sort(list,comstu);
         System.out.println(list);
         for (int i = 0; i < list.size(); i++) {
             Student stu = (Student) list.get(i);
             System.out.println(stu.name);
-
-
         }
-
-
+        System.out.println("----------------------------------------");
+        // 迭代器对象
+        Iterator iterator = list.iterator();
+        while (iterator.hasNext())
+        {
+            Student stu = (Student)iterator.next();
+            System.out.println(stu.name);
+        }
     }
-
-
-
-
-
     /**
      *
      * @param l  -- 要排序的LIst

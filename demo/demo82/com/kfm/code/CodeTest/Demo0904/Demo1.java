@@ -25,11 +25,12 @@ public class Demo1 {
                     return -1;
             }
         };
+
+
+
         System.out.println(list);
         sort(list,com);
         System.out.println(list);
-
-
     }
     public static void sort(List l,Comparator c)
     {
@@ -48,7 +49,6 @@ public class Demo1 {
             }
         }
     }
-
 
 }
 class Student1
