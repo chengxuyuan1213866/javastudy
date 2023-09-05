@@ -71,10 +71,6 @@ public class work2 {
     }
 
 }
-
-
-
-
 class Student{
     private String name;
     private Double score;
