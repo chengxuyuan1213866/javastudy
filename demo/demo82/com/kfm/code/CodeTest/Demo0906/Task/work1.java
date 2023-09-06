@@ -41,10 +41,8 @@ public class work1 {
             }
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }*/
-
+        // 记录删除
         Vector vector = new Vector();
-
-
         for (String key:provinceMap.keySet()) {
             if (provinceMap.get(key).contains("江"))
             {
@@ -56,16 +54,16 @@ public class work1 {
             provinceMap.remove(vector.get(i));
         }*/
 
-/*        Iterator<String> iterator = provinceMap.keySet().iterator();
-
+        // 删除迭代器的当前元素
+        Iterator<String> iterator = provinceMap.keySet().iterator();
         while (iterator.hasNext())
         {
             String str = iterator.next();
             if (provinceMap.get(str).contains("江"))
             {
-                provinceMap.remove(str);
+                iterator.remove();
             }
-        }*/
+        }
 
         // 通过key遍历
 /*        for (String key:provinceMap.keySet()) {
