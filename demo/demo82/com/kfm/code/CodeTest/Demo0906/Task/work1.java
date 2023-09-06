@@ -1,8 +1,6 @@
 package code.CodeTest.Demo0906.Task;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Vector;
+import java.util.*;
 
 public class work1 {
     public static void main(String[] args) {
@@ -54,14 +52,25 @@ public class work1 {
             }
         }
         // 删除
-        for (int i = 0; i < vector.size(); i++) {
+/*        for (int i = 0; i < vector.size(); i++) {
             provinceMap.remove(vector.get(i));
-        }
+        }*/
+
+/*        Iterator<String> iterator = provinceMap.keySet().iterator();
+
+        while (iterator.hasNext())
+        {
+            String str = iterator.next();
+            if (provinceMap.get(str).contains("江"))
+            {
+                provinceMap.remove(str);
+            }
+        }*/
 
         // 通过key遍历
-        for (String key:provinceMap.keySet()) {
+/*        for (String key:provinceMap.keySet()) {
             System.out.println(key + "\t" + provinceMap.get(key));
-        }
+        }*/
         System.out.println(provinceMap.size());
     }
 }
